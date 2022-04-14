@@ -20,7 +20,7 @@ use Symfony\Component\Routing\Generator\UrlGeneratorInterface;
 use Symfony\Component\Routing\RouterInterface;
 use CIHub\Bundle\SimpleRESTAdapterBundle\Reader\ConfigReader;
 
-final class ImageDataCollector implements DataCollectorInterface
+class ImageDataCollector implements DataCollectorInterface
 {
     /**
      * @var RouterInterface

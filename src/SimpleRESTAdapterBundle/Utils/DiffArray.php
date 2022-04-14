@@ -14,7 +14,7 @@
 
 namespace CIHub\Bundle\SimpleRESTAdapterBundle\Utils;
 
-final class DiffArray
+class DiffArray
 {
     /**
      * Recursively computes the difference of arrays with additional index check.

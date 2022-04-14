@@ -16,7 +16,7 @@ namespace CIHub\Bundle\SimpleRESTAdapterBundle\Elasticsearch\Builder;
 
 use Elasticsearch\Client;
 
-final class ClientBuilder implements ClientBuilderInterface
+class ClientBuilder implements ClientBuilderInterface
 {
     /**
      * @var array<int, string>

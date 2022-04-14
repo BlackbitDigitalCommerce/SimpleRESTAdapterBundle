@@ -17,7 +17,7 @@ namespace CIHub\Bundle\SimpleRESTAdapterBundle\Elasticsearch\Mapping;
 use RuntimeException;
 use CIHub\Bundle\SimpleRESTAdapterBundle\Reader\ConfigReader;
 
-final class AssetMapping extends DefaultMapping
+class AssetMapping extends DefaultMapping
 {
     /**
      * {@inheritdoc}

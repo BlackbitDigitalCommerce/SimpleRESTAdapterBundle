@@ -17,7 +17,7 @@ namespace CIHub\Bundle\SimpleRESTAdapterBundle\Repository;
 use Pimcore\Bundle\DataHubBundle\Configuration;
 use Pimcore\Bundle\DataHubBundle\Configuration\Dao;
 
-final class DataHubConfigurationRepository
+class DataHubConfigurationRepository
 {
     public function findOneByName(string $name): ?Configuration
     {

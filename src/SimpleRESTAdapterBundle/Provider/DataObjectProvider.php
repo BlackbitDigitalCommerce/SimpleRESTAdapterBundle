@@ -22,7 +22,7 @@ use Webmozart\Assert\Assert;
 use CIHub\Bundle\SimpleRESTAdapterBundle\DataCollector\CompositeDataCollector;
 use CIHub\Bundle\SimpleRESTAdapterBundle\Reader\ConfigReader;
 
-final class DataObjectProvider implements ProviderInterface
+class DataObjectProvider implements ProviderInterface
 {
     /**
      * @var CompositeDataCollector

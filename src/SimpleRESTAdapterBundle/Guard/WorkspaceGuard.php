@@ -18,7 +18,7 @@ use Pimcore\Model\Element\ElementInterface;
 use CIHub\Bundle\SimpleRESTAdapterBundle\Reader\ConfigReader;
 use CIHub\Bundle\SimpleRESTAdapterBundle\Utils\WorkspaceSorter;
 
-final class WorkspaceGuard implements WorkspaceGuardInterface
+class WorkspaceGuard implements WorkspaceGuardInterface
 {
     /**
      * {@inheritdoc}

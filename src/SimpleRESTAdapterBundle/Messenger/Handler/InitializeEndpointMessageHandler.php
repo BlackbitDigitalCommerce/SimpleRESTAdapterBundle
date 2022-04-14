@@ -27,7 +27,7 @@ use CIHub\Bundle\SimpleRESTAdapterBundle\Reader\ConfigReader;
 use CIHub\Bundle\SimpleRESTAdapterBundle\Repository\DataHubConfigurationRepository;
 use CIHub\Bundle\SimpleRESTAdapterBundle\Utils\WorkspaceSorter;
 
-final class InitializeEndpointMessageHandler implements MessageHandlerInterface
+class InitializeEndpointMessageHandler implements MessageHandlerInterface
 {
     private const CONDITION_DISTINCT = 'distinct';
     private const CONDITION_INCLUSIVE = 'inclusive';

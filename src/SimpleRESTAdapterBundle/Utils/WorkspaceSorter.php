@@ -14,7 +14,7 @@
 
 namespace CIHub\Bundle\SimpleRESTAdapterBundle\Utils;
 
-final class WorkspaceSorter
+class WorkspaceSorter
 {
     public const LOWEST_SPECIFICITY = 0;
     public const HIGHEST_SPECIFICITY = 1;

@@ -23,7 +23,7 @@ use Symfony\Component\Routing\RouterInterface;
 use Webmozart\Assert\Assert;
 use CIHub\Bundle\SimpleRESTAdapterBundle\Reader\ConfigReader;
 
-final class AssetProvider implements ProviderInterface
+class AssetProvider implements ProviderInterface
 {
     /**
      * This thumbnail needs to be passed with every image and document, so CI HUB can display a preview for it.

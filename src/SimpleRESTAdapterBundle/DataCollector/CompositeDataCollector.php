@@ -18,7 +18,7 @@ use Pimcore\Model\DataObject\Concrete;
 use Webmozart\Assert\Assert;
 use CIHub\Bundle\SimpleRESTAdapterBundle\Reader\ConfigReader;
 
-final class CompositeDataCollector
+class CompositeDataCollector
 {
     /**
      * @var iterable<DataCollectorInterface>

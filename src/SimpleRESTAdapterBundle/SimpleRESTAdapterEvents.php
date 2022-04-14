@@ -14,7 +14,7 @@
 
 namespace CIHub\Bundle\SimpleRESTAdapterBundle;
 
-final class SimpleRESTAdapterEvents
+class SimpleRESTAdapterEvents
 {
     /**
      * The CONFIGURATION_PRE_DELETE event occurs before the configuration gets deleted.

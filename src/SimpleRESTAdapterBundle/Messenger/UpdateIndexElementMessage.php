@@ -14,7 +14,7 @@
 
 namespace CIHub\Bundle\SimpleRESTAdapterBundle\Messenger;
 
-final class UpdateIndexElementMessage
+class UpdateIndexElementMessage
 {
     /**
      * @var int

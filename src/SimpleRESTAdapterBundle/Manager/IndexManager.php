@@ -24,7 +24,7 @@ use CIHub\Bundle\SimpleRESTAdapterBundle\Elasticsearch\Index\IndexPersistenceSer
 use CIHub\Bundle\SimpleRESTAdapterBundle\Reader\ConfigReader;
 use CIHub\Bundle\SimpleRESTAdapterBundle\Utils\DiffArray;
 
-final class IndexManager
+class IndexManager
 {
     public const INDEX_ASSET = 'asset';
     public const INDEX_ASSET_FOLDER = 'assetfolder';

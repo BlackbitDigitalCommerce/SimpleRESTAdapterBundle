@@ -14,7 +14,7 @@
 
 namespace CIHub\Bundle\SimpleRESTAdapterBundle\Messenger;
 
-final class InitializeEndpointMessage
+class InitializeEndpointMessage
 {
     /**
      * @var string

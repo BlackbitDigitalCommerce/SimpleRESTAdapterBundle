@@ -22,7 +22,7 @@ use CIHub\Bundle\SimpleRESTAdapterBundle\Elasticsearch\Index\IndexPersistenceSer
 use CIHub\Bundle\SimpleRESTAdapterBundle\Manager\IndexManager;
 use CIHub\Bundle\SimpleRESTAdapterBundle\Messenger\UpdateIndexElementMessage;
 
-final class UpdateIndexElementMessageHandler implements MessageHandlerInterface
+class UpdateIndexElementMessageHandler implements MessageHandlerInterface
 {
     /**
      * @var IndexManager

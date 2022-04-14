@@ -18,7 +18,7 @@ use Pimcore\Bundle\DataHubBundle\Configuration;
 use Webmozart\Assert\Assert;
 use CIHub\Bundle\SimpleRESTAdapterBundle\Repository\DataHubConfigurationRepository;
 
-final class CompositeConfigurationLoader
+class CompositeConfigurationLoader
 {
     /**
      * @var DataHubConfigurationRepository

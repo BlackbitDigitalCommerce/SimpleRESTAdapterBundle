@@ -25,7 +25,7 @@ use CIHub\Bundle\SimpleRESTAdapterBundle\Provider\DataObjectProvider;
 use CIHub\Bundle\SimpleRESTAdapterBundle\Reader\ConfigReader;
 use CIHub\Bundle\SimpleRESTAdapterBundle\Repository\DataHubConfigurationRepository;
 
-final class IndexPersistenceService
+class IndexPersistenceService
 {
     /**
      * @var Client

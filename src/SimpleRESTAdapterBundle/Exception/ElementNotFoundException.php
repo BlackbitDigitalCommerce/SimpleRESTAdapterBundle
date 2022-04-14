@@ -16,7 +16,7 @@ namespace CIHub\Bundle\SimpleRESTAdapterBundle\Exception;
 
 use Symfony\Component\HttpFoundation\Response;
 
-final class ElementNotFoundException extends \RuntimeException implements EndpointExceptionInterface
+class ElementNotFoundException extends \RuntimeException implements EndpointExceptionInterface
 {
     /**
      * @param int         $id

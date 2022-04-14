@@ -16,7 +16,7 @@ namespace CIHub\Bundle\SimpleRESTAdapterBundle\Extractor;
 
 use CIHub\Bundle\SimpleRESTAdapterBundle\Manager\IndexManager;
 
-final class LabelExtractor implements LabelExtractorInterface
+class LabelExtractor implements LabelExtractorInterface
 {
     public const ALLOWED_PROPERTIES = ['data', 'dimensionData', 'metaData', 'system'];
     public const ALLOWED_SYSTEM_PROPERTIES = ['id', 'key', 'mimeType', 'subtype', 'type'];

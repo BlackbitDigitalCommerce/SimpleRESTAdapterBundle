@@ -18,7 +18,7 @@ use Elasticsearch\Client;
 use Elasticsearch\Common\Exceptions\Missing404Exception;
 use ONGR\ElasticsearchDSL\Search;
 
-final class IndexQueryService
+class IndexQueryService
 {
     /**
      * @var Client

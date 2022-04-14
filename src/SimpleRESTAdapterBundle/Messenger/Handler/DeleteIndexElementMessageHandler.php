@@ -22,7 +22,7 @@ use CIHub\Bundle\SimpleRESTAdapterBundle\Elasticsearch\Index\IndexPersistenceSer
 use CIHub\Bundle\SimpleRESTAdapterBundle\Manager\IndexManager;
 use CIHub\Bundle\SimpleRESTAdapterBundle\Messenger\DeleteIndexElementMessage;
 
-final class DeleteIndexElementMessageHandler implements MessageHandlerInterface
+class DeleteIndexElementMessageHandler implements MessageHandlerInterface
 {
     /**
      * @var IndexManager

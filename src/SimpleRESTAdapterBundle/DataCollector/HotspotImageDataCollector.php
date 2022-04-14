@@ -18,7 +18,7 @@ use Pimcore\Model\Asset;
 use Pimcore\Model\DataObject\Data\Hotspotimage;
 use CIHub\Bundle\SimpleRESTAdapterBundle\Reader\ConfigReader;
 
-final class HotspotImageDataCollector implements DataCollectorInterface
+class HotspotImageDataCollector implements DataCollectorInterface
 {
     /**
      * @var ImageDataCollector

@@ -14,7 +14,7 @@
 
 namespace CIHub\Bundle\SimpleRESTAdapterBundle\Loader;
 
-final class SimpleRESTConfigurationLoader implements ConfigurationLoaderInterface
+class SimpleRESTConfigurationLoader implements ConfigurationLoaderInterface
 {
     /**
      * {@inheritdoc}

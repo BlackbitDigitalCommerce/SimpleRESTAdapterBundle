@@ -16,7 +16,7 @@ namespace CIHub\Bundle\SimpleRESTAdapterBundle\Exception;
 
 use Symfony\Component\HttpFoundation\Response;
 
-final class ConfigurationNotFoundException extends \RuntimeException implements EndpointExceptionInterface
+class ConfigurationNotFoundException extends \RuntimeException implements EndpointExceptionInterface
 {
     /**
      * @param string $configName

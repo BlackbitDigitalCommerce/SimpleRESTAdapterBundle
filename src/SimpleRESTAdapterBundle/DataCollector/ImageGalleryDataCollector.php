@@ -17,7 +17,7 @@ namespace CIHub\Bundle\SimpleRESTAdapterBundle\DataCollector;
 use Pimcore\Model\DataObject\Data\ImageGallery;
 use CIHub\Bundle\SimpleRESTAdapterBundle\Reader\ConfigReader;
 
-final class ImageGalleryDataCollector implements DataCollectorInterface
+class ImageGalleryDataCollector implements DataCollectorInterface
 {
     /**
      * @var HotspotImageDataCollector
