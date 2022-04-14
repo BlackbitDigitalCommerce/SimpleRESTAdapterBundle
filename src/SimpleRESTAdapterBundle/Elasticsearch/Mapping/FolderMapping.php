@@ -52,7 +52,7 @@ class FolderMapping extends DefaultMapping
                             ],
                         ],
                         'type' => [
-                            'type' => 'constant_keyword',
+                            'type' => 'keyword',
                         ],
                         'parentId' => [
                             'type' => 'keyword',
@@ -67,7 +67,7 @@ class FolderMapping extends DefaultMapping
                             'type' => 'date',
                         ],
                         'subtype' => [
-                            'type' => 'constant_keyword',
+                            'type' => 'keyword',
                         ],
                     ],
                 ],
