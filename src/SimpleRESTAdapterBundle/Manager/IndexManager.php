@@ -199,12 +199,12 @@ class IndexManager
             );
         }
 
-        return sprintf(
+        return mb_strtolower(sprintf(
             '%s__%s__%s',
             $this->indexNamePrefix,
             $endpointName,
             $indexName
-        );
+        ));
     }
 
     /**

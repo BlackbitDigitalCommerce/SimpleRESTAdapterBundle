@@ -17,6 +17,7 @@
   ],
   "require": {
     "php": ">=8.0",
+    "ext-mbstring": "*",
     "ongr/elasticsearch-dsl": "^7.0",
     "pimcore/data-hub": "^1.0",
     "pimcore/pimcore": "^10.0",
